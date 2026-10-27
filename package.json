@@ -1,0 +1,13 @@
+{
+  "name": "midnight-proof-server-integration",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CI integration smoke test for the Midnight proof server",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node test/proof-server.test.mjs"
+  }
+}
